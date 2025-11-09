@@ -1,0 +1,19 @@
+ใช้ python 3.12
+
+Libraries
+- PyTorch
+- Torchvision
+- numpy
+- matplotlib
+- PIL (Pillow)
+- cv2 (OpenCV)
+- skimage
+- scikit-learn
+- ray
+
+** Note **
+
+ใช้ dataset 500 ภาพแทน เพราะ มีปัญหาด้านการใช้งาน apex
+ไฟล์ .ipynb ที่ส่งไป ใช้ค่าพารามิเตอร์ ตามที่อาจารย์กำหนดให้ แต่ตรงที่อาจารย์ให้ใช้ grid_search และ random search ทำผิด
+เพราะใช้ grid_search ทั้งสอง ต่างกันตรงที่ใช้ num_space เป็น 5 (ได้ไฟล์ autoencoder_gird_search.pth) กับ 20 (ได้ไฟล์ autoencoder_random_search.pth)
+พี่ TA ให้แก้แล้ว แต่บอกให้ส่งเข้า leaderboard ก่อน

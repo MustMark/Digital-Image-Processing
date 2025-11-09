@@ -1,2 +1,4 @@
 Lab5_CNN/data/
 Lab6_Hyperparameter-Tuning/data
+Lab6_Hyperparameter-Tuning/test_model/outputs
+Lab6_Hyperparameter-Tuning/test_model/test
